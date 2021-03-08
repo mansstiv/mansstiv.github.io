@@ -382,24 +382,24 @@ h1 {
 }
 
 #myBtn {
-  display: none; /* Hidden by default */
-  position: fixed; /* Fixed/sticky position */
-  bottom: 3%; /* Place the button at the bottom of the page */
-  right: 2%; /* Place the button 30px from the right */
-  z-index: 99; /* Make sure it does not overlap */
-  border: none; /* Remove borders */
-  outline: none; /* Remove outline */
-  background-color: rgb(230, 188, 53); /* Set a background color */
-  color: black; /* Text color */
-  cursor: pointer; /* Add a mouse pointer on hover */
-  padding: 15px; /* Some padding */
-  border-radius: 10px; /* Rounded corners */
-  font-size: 16px; /* Increase font size */
+  display: none; 
+  position: fixed;
+  bottom: 3%;
+  right: 2%; 
+  z-index: 99;
+  border: none; 
+  outline: none; 
+  background-color: rgb(230, 188, 53); 
+  color: black; 
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 10px;
+  font-size: 16px;
   font-weight: bold;
 }
 
 #myBtn:hover {
-  background-color: rgb(209, 162, 7); /* Add a dark-grey background on hover */
+  background-color: rgb(209, 162, 7);
 }
 
 .mobile-icon-menu {
@@ -522,8 +522,8 @@ h1 {
 
   .about-section-photo {
     margin-bottom: 10% !important;
-    margin-top: 2% !important; /*h*/
-    margin-left: 0% !important; /*h*/
+    margin-top: 2% !important; 
+    margin-left: 0% !important;
   }
 
   .about-section-photo img {
