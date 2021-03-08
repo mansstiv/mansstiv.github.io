@@ -64,9 +64,11 @@ h1 {
 
 .navigation-bar .music-btn {
   display: flex;
-  /* justify-content: space-evenly; */
-  /* margin-right: 5%; */
   align-items: center;
+}
+
+.navigation-bar .music-btn p {
+  font-size: 16px;
 }
 
 .navigation-bar ul li:nth-child(1) {
