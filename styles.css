@@ -74,7 +74,7 @@ h1 {
 }
 
 .navigation-bar li i {
-  font-size: 17.3px;
+  font-size: 18px;
 }
 
 .btn {
@@ -86,10 +86,9 @@ h1 {
 }
 
 .navigation-bar ul {
-  /* margin-left: 17%; */
   display: flex;
-  justify-content: space-around;
-  width: 40%;
+  justify-content: space-evenly;
+  width: 52%;
   margin-right: 4%;
   align-items: center;
   /* background-color: transparent; */
@@ -105,7 +104,7 @@ h1 {
   text-decoration: none;
   letter-spacing: 0.5px;
   font-weight: bold;
-  font-size: 16px;
+  font-size: 17px;
   /* background-color: transparent; */
 }
 
@@ -124,7 +123,7 @@ h1 {
 .navigation-bar .page-logo p {
   color: white;
   font-weight: bold;
-  font-size: 20.5px;
+  font-size: 21px;
   background-color: transparent;
 }
 
@@ -382,15 +381,15 @@ h1 {
 }
 
 #myBtn {
-  display: none; 
+  display: none;
   position: fixed;
   bottom: 3%;
-  right: 2%; 
+  right: 2%;
   z-index: 99;
-  border: none; 
-  outline: none; 
-  background-color: rgb(230, 188, 53); 
-  color: black; 
+  border: none;
+  outline: none;
+  background-color: rgb(230, 188, 53);
+  color: black;
   cursor: pointer;
   padding: 15px;
   border-radius: 10px;
@@ -522,7 +521,7 @@ h1 {
 
   .about-section-photo {
     margin-bottom: 10% !important;
-    margin-top: 2% !important; 
+    margin-top: 2% !important;
     margin-left: 0% !important;
   }
 
