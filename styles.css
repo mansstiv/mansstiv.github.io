@@ -21,7 +21,7 @@ h6 {
 }
 
 .mrgn-top {
-  margin-top: 9rem;
+  margin-top: 7.5rem;
 }
 
 h1 {
@@ -589,10 +589,6 @@ h1 {
   .portfolio-section .two-images .image:last-child {
     margin-top: 3rem !important;
   }
-  /* 
-  .portfolio-section > .two-images:nth-child(1) > .image:nth-child(1) {
-    margin-bottom: 2rem !important;
-  } */
 
   #contact {
     margin-top: 12% !important;
