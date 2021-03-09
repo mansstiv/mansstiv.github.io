@@ -344,6 +344,10 @@ h1 {
   transition: opacity 0.25s;
 }
 
+.image__overlay p.second {
+  display: none;
+}
+
 .image__overlay--blur {
   backdrop-filter: blur(5px);
 }
@@ -640,21 +644,27 @@ h1 {
     width: 50%;
   }
 }
-@media (max-width: 650px) {
+@media (max-width: 630px) {
   .about-section-photo2 img {
     height: auto;
     width: 58%;
   }
+  .image__overlay p.first {
+    display: none !important;
+  }
+  .image__overlay p.second {
+    display: inline-block !important;
+  }
 }
 
-@media (max-width: 580px) {
+@media (max-width: 600px) {
   .about-section-photo2 img {
     height: auto;
     width: 64%;
   }
 }
 
-@media (max-width: 520px) {
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) {
   .about-section-photo img {
     height: auto;
     width: 70%;
@@ -674,6 +684,7 @@ h1 {
     margin-left: 10% !important;
     margin-right: 10% !important;
   }
+
   .contact-section {
     margin-bottom: 0% !important;
   }
