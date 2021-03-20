@@ -29,10 +29,10 @@
         </div>
 
         <ul id="myLinks">
-            <li><a href="#home_"><i class="fa fa-home"></i><div class="mrgn">Home</div></a></li>
-            <li><a href="#about_"><i class="fa fa-user"></i><div class="mrgn">About</div></a></li>
-            <li><a href="#portfolio_"><i class="fa fa-book"></i><div class="mrgn">Portfolio</div></a></li>
-            <li><a href="#contact_"><i class="fa fa-envelope"></i><div class="mrgn">Contact</div></a></li>
+            <li><a href="#home_"><i class="fa fa-home" aria-hidden="true"></i><div class="mrgn">Home</div></a></li>
+            <li><a href="#about_"><i class="fa fa-user" aria-hidden="true"></i><div class="mrgn">About</div></a></li>
+            <li><a href="#portfolio_"><i class="fa fa-book" aria-hidden="true"></i><div class="mrgn">Portfolio</div></a></li>
+            <li><a href="#contact_"><i class="fa fa-envelope" aria-hidden="true"></i><div class="mrgn">Contact</div></a></li>
         </ul>
         <div class="music-btn">
             <audio id="myMusic"><source src="LaVieEnRose.mp3" type="audio/mp3"></audio>
@@ -60,7 +60,7 @@
             <div  id="about_" style="margin-top: 26.5%;"></div>
             <div id="about">     
                 <div class="about-section-text">
-                    <div class="title"><i class="fa fa-user mrgn"></i><h1>About</h1></div>
+                    <div class="title"><i class="fa fa-user mrgn" aria-hidden="true"></i><h1>About</h1></div>
                     <p>
                         Since you've got here, maybe you are interested in learning some things about me! 
                         Currently, I'm in the fourth-year of my bachelor studies, at the <a href="https://www.di.uoa.gr/en" target="_blank">Department of Informatics and Telecommunications</a>,
@@ -85,7 +85,7 @@
             </div>
             <div id="portfolio_"></div>
             <div id="portfolio">                
-                <div class="title"><i class="fa fa-book mrgn"></i><h1>Portfolio</h1></div>
+                <div class="title"><i class="fa fa-book mrgn" aria-hidden="true"></i><h1>Portfolio</h1></div>
                 <div class="portfolio-section">
                     <div class="two-images">
                             <div class="image">
@@ -155,20 +155,37 @@
             </div>
             <div id="contact_"></div>
             <div id="contact">
-                <div class="title"><i class="fa fa-envelope mrgn"></i><h1>Contact</h1></div>
+                <div class="title"><i class="fa fa-envelope mrgn" aria-hidden="true"></i><h1>Contact</h1></div>
+                <div class="container-form">
+                    <form action="https://usebasin.com/f/77984dc59ce1" method="POST">
+                        <label for="fullName" style="visibility: hidden;">Full Name</label>
+                        <input type="text" id="fullName" name="fullNname" placeholder="Full Name">
+
+                        <label for="email" style="visibility: hidden;">Email</label>
+                        <input type="text" id="email" name="email" placeholder="Email Address">
+
+                        <label for="subject" style="visibility: hidden;">Subject</label>
+                        <textarea id="subject" name="subject" placeholder="Your message.." style="height:200px"></textarea>
+                    
+                        <input type="submit" value="Send">
+                    </form>
+                </div>
             </div>
+            
             <div class="footer">
                 <div class="contact-section">
-                    <p>sdi1700152[at]di.uoa.gr</p>
-                    <br><p>manolis.stivaktas[at]gmail.com</p>
+                    <!-- <p>sdi1700152[at]di.uoa.gr</p>
+                    <br><p>manolis.stivaktas[at]gmail.com</p> -->
+                    
+                    <br>
                     <div class="social">
-                        <a href="https://www.facebook.com/manolis.stivaktas/" target="_blank" title="Go to my facebook page"><i class="fa fa-facebook"></i></a>                   
-                        <a href="https://www.instagram.com/mansstiv/" target="_blank" title="Go to my instagram page"><i class="fa fa-instagram"></i></a>
-                        <a href="https://www.linkedin.com/in/manolis-stivaktas-2481291bb/" target="_blank" title="Go to my linkedin page"><i class="fa fa-linkedin"></i></a>
-                        <a href="https://github.com/mansstiv" target="_blank" title="Go to my github page"><i class="fa fa-github"></i></a>
+                        <a href="https://www.facebook.com/manolis.stivaktas/" target="_blank" title="Go to my facebook page"><i class="fa fa-facebook" aria-hidden="true"></i></a>                   
+                        <a href="https://www.instagram.com/mansstiv/" target="_blank" title="Go to my instagram page"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                        <a href="https://www.linkedin.com/in/manolis-stivaktas-2481291bb/" target="_blank" title="Go to my linkedin page"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                        <a href="https://github.com/mansstiv" target="_blank" title="Go to my github page"><i class="fa fa-github" aria-hidden="true"></i></a>
                     </div>
                 </div>
-                <!-- <img src="poster.jpg" alt="earth background"> -->
+                <p>&copy;Copyright 2021 | Manolis Stivaktas</p>
             </div>
         </div>
     </section>
@@ -242,7 +259,6 @@
         }         
 
     </script>
-
 
 </body>
 </html>
