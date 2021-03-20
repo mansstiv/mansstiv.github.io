@@ -383,7 +383,7 @@ textarea {
 
 .footer p:last-child {
   color: rgb(230, 188, 53);
-  color: rgba(102, 102, 102, 0.856);
+  color: gray;
   text-align: center;
   padding-bottom: 1.7rem;
 }
