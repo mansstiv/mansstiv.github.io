@@ -15,6 +15,10 @@ h6 {
   color: white;
 }
 
+hr {
+  color: rgb(230, 188, 53);
+}
+
 .mrgn {
   margin-left: 5.5px;
   display: inline-block;
@@ -24,6 +28,10 @@ h6 {
   margin-top: 7.5rem;
 }
 
+.mrgn-btm {
+  margin-bottom: 100px;
+}
+
 h1 {
   color: rgb(21, 147, 219);
   color: rgb(230, 188, 53);
@@ -31,6 +39,12 @@ h1 {
   font-size: 36px;
   font-weight: normal !important;
 }
+
+/* .floatingNav {
+  width: calc(100vh - 100px);
+  border-radius: 2px;
+  box-shadow: 0 1px 6px 0 rgba(255, 255, 255, 0.329);
+} */
 
 .navigation-bar {
   position: sticky;
@@ -270,9 +284,60 @@ h1 {
   background-color: transparent;
 }
 
+.container-form {
+  margin-top: 1.5%;
+  border-radius: 5px;
+  padding: 20px;
+  margin-left: 17%;
+  margin-right: 17%;
+}
+
+.container-form p {
+  margin-bottom: 2%;
+  margin-top: 3%;
+}
+
+.container-form label {
+  color: white;
+}
+
+input[type="text"],
+select,
+textarea {
+  width: 100%;
+  padding: 10px 0px;
+  margin-bottom: 22px;
+  box-sizing: border-box;
+  resize: none !important;
+  color: white;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid #ddd;
+  font-size: 19px;
+}
+
+input[type="submit"] {
+  background-color: rgb(218, 175, 35);
+  color: black;
+  padding: 23px 60px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 1.5%;
+  font-size: 16px;
+}
+
+input[type="submit"]:hover {
+  background-color: rgb(209, 162, 7);
+}
+
+textarea {
+  padding-top: 30px;
+}
+
 .contact-section {
   text-align: center;
-  margin: 0% 10% 6% 10%;
+  margin: 6% 10% 1.1% 10%;
   background-color: transparent;
 }
 
@@ -282,9 +347,10 @@ h1 {
 }
 
 .contact-section .social {
-  margin-top: 5%;
   display: flex;
   justify-content: space-evenly;
+  margin-left: 20%;
+  margin-right: 20%;
 }
 
 .contact-section a {
@@ -294,7 +360,7 @@ h1 {
   transition: all 0.3s ease;
   color: white;
   color: rgb(230, 188, 53);
-  font-size: 60px;
+  font-size: 35px;
 }
 
 .contact-section a:hover {
@@ -308,6 +374,12 @@ h1 {
   display: flex;
   justify-content: space-around;
   align-items: center;
+}
+
+.footer p:last-child {
+  color: rgb(230, 188, 53);
+  text-align: center;
+  padding-bottom: 1.7rem;
 }
 
 .footer img {
@@ -595,16 +667,41 @@ h1 {
     margin-bottom: 6% !important;
   }
 
-  .contact-section {
-    margin-bottom: 6% !important;
+  .container-form {
+    margin-top: 1.5% !important;
+    margin-left: 10% !important;
+    margin-right: 10% !important;
   }
 
-  .footer .social {
-    margin-top: 10% !important;
-    font-size: 20px;
+  input[type="text"],
+  select,
+  textarea {
+    padding: 10px 0px !important;
+    margin-bottom: 22px !important;
   }
+
+  input[type="submit"] {
+    margin-top: 1.5% !important;
+    padding: 17px 40px !important;
+  }
+
+  textarea {
+    padding-top: 30px !important;
+  }
+
+  .contact-section {
+    margin: 6% 17% 1.1% 17% !important;
+  }
+
+  .footer p:last-child {
+    margin-left: 22% !important;
+    margin-right: 22% !important;
+    font-size: 14px;
+    padding-bottom: 1rem !important;
+  }
+
   .footer .social i {
-    font-size: 53px;
+    font-size: 33px;
   }
 
   #myBtn {
@@ -632,12 +729,25 @@ h1 {
     margin-right: 10% !important;
     margin-left: 10% !important;
   }
+  .container-form {
+    margin-left: 8% !important;
+    margin-right: 8% !important;
+  }
+  .contact-section {
+    margin: 6% 10% 1.1% 10% !important;
+  }
 }
 
 @media (max-width: 850px) {
   .about-section-photo2 img {
     height: auto;
     width: 50%;
+  }
+  .footer .social i {
+    font-size: 30px;
+  }
+  .contact-section {
+    margin: 4% 10% 1.1% 10% !important;
   }
 }
 @media (max-width: 630px) {
@@ -650,6 +760,10 @@ h1 {
   }
   .image__overlay p.second {
     display: inline-block !important;
+  }
+  .container-form {
+    margin-left: 3% !important;
+    margin-right: 3% !important;
   }
 }
 
