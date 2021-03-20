@@ -331,6 +331,11 @@ input[type="submit"]:hover {
   background-color: rgb(209, 162, 7);
 }
 
+input:required,
+textarea:required {
+  box-shadow: none;
+}
+
 textarea {
   padding-top: 30px;
 }
