@@ -340,6 +340,12 @@ textarea {
   padding-top: 30px;
 }
 
+input[type="text"]:focus,
+select:focus,
+textarea:focus {
+  border-bottom: 1px solid rgb(218, 175, 35);
+}
+
 .contact-section {
   text-align: center;
   margin: 6% 10% 1.1% 10%;
