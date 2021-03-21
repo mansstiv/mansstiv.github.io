@@ -128,6 +128,8 @@ h1 {
   color: rgb(171, 22, 230);
   color: rgb(230, 188, 53);
   transition: 0.125s;
+  padding-top: 14px;
+  border-top: 2px solid rgb(230, 188, 53);
 }
 
 .navigation-bar .logo {
@@ -528,7 +530,12 @@ textarea:focus {
     align-items: baseline;
     padding: 1rem 1.5rem !important;
   }
-
+  
+  .navigation-bar a:hover {
+    padding-top: 0px !important;
+    border-top: 0px solid rgb(230, 188, 53);
+  }
+  
   .navigation-bar ul {
     flex-direction: column;
     width: 100%;
