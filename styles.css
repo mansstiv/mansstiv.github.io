@@ -674,6 +674,10 @@ textarea:focus {
     margin-top: 3rem !important;
   }
 
+  .portfolio-section .two-images:last-child .image {
+    margin-top: 0rem !important;
+  }
+  
   #contact {
     margin-top: 12% !important;
     margin-bottom: 6% !important;
