@@ -218,7 +218,7 @@ h1 {
 
 .about-section-text {
   padding-right: 5%;
-  text-align: justify;
+/*   text-align: justify; */
 }
 
 .about-section-text .title {
@@ -623,7 +623,7 @@ textarea:focus {
 
   .about-section-text {
     order: 2;
-    text-align: justify;
+/*     text-align: justify; */
     margin-right: 15% !important;
     margin-left: 15% !important;
     padding-right: 0% !important;
