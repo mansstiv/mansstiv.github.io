@@ -32,6 +32,19 @@ hr {
   margin-bottom: 100px;
 }
 
+.mrgnbtm {
+  margin-bottom: 20px;
+}
+
+.visually-hidden {
+  position: absolute;
+  left: -10000px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+
 h1 {
   color: rgb(21, 147, 219);
   color: rgb(230, 188, 53);
