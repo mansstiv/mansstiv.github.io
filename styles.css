@@ -623,7 +623,7 @@ textarea:focus {
 
   .about-section-text {
     order: 2;
-/*     text-align: justify; */
+    text-align: start;
     margin-right: 15% !important;
     margin-left: 15% !important;
     padding-right: 0% !important;
