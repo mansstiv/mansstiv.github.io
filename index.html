@@ -29,10 +29,26 @@
         </div>
 
         <ul id="myLinks">
-            <li><a href="#home_"><i class="fa fa-home" aria-hidden="true"></i><div class="mrgn">Home</div></a></li>
-            <li><a href="#about_"><i class="fa fa-user" aria-hidden="true"></i><div class="mrgn">About</div></a></li>
-            <li><a href="#portfolio_"><i class="fa fa-book" aria-hidden="true"></i><div class="mrgn">Portfolio</div></a></li>
-            <li><a href="#contact_"><i class="fa fa-envelope" aria-hidden="true"></i><div class="mrgn">Contact</div></a></li>
+            <li><a href="#home_">
+                <span class="visually-hidden">Home</span>
+                <i class="fa fa-home" aria-hidden="true"></i>
+                <div class="mrgn">Home</div>
+            </a></li>
+            <li><a href="#about_">
+                <span class="visually-hidden">About</span>
+                <i class="fa fa-user" aria-hidden="true"></i>
+                <div class="mrgn">About</div>
+            </a></li>
+            <li><a href="#portfolio_">
+                <span class="visually-hidden">Portfolio</span>
+                <i class="fa fa-book" aria-hidden="true"></i>
+                <div class="mrgn">Portfolio</div>
+            </a></li>
+            <li><a href="#contact_">
+                <span class="visually-hidden">Contact</span>
+                <i class="fa fa-envelope" aria-hidden="true"></i>
+                <div class="mrgn">Contact</div>
+            </a></li>
         </ul>
         <div class="music-btn">
             <audio id="myMusic"><source src="LaVieEnRose.mp3" type="audio/mp3"></audio>
@@ -126,7 +142,7 @@
                                 <div class="image__overlay image__overlay--primary">
                                     <div class="image__title">System Programming</div>
                                     <p class="image__description first">
-                                      Projects implemented in C, as a part of "System Programming" course. Gained knowledge on thread programming, inter process 
+                                      Projects created in C, as a part of "System Programming" course. Gained knowledge on thread programming, inter process 
                                       communication (named pipes), low-level I/O and network communication (implemented a multithreading server-client model).  
                                     </p>
                                     <p class="image__description second">
@@ -175,13 +191,16 @@
                 <div class="title"><i class="fa fa-envelope mrgn" aria-hidden="true"></i><h1>Contact</h1></div>
                 <div class="container-form">
                     <form action="https://usebasin.com/f/77984dc59ce1" method="POST">
-                        <label for="fullName" style="visibility: hidden;">Full Name</label>
+                        <div class="mrgnbtm"></div>
+                        <label for="fullName" class="visually-hidden">Full Name</label>
                         <input type="text" id="fullName" name="fullNname" placeholder="Full Name" required>
 
-                        <label for="email" style="visibility: hidden;">Email</label>
+                        <div class="mrgnbtm"></div>
+                        <label for="email" class="visually-hidden">>Email</label>
                         <input type="text" id="email" name="email" placeholder="Email Address" required>
 
-                        <label for="subject" style="visibility: hidden;">Subject</label>
+                        <div class="mrgnbtm"></div>
+                        <label for="subject" class="visually-hidden">>Subject</label>
                         <textarea id="subject" name="subject" placeholder="Your message.." style="height:200px" required></textarea>
                     
                         <input type="submit" value="Send">
@@ -191,9 +210,6 @@
             
             <div class="footer">
                 <div class="contact-section">
-                    <!-- <p>sdi1700152[at]di.uoa.gr</p>
-                    <br><p>manolis.stivaktas[at]gmail.com</p> -->
-                    
                     <br>
                     <div class="social">
                         <a href="https://www.facebook.com/manolis.stivaktas/" target="_blank" title="Go to my facebook page"><i class="fa fa-facebook" aria-hidden="true"></i></a>                   
@@ -208,7 +224,7 @@
     </section>
 
 
- <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
 
     <script type="text/javascript">
 
