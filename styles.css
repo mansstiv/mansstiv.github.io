@@ -45,7 +45,8 @@ hr {
   overflow: hidden;
 }
 
-h1 {
+h1,
+h2 {
   color: rgb(21, 147, 219);
   color: rgb(230, 188, 53);
   color: white;
@@ -141,7 +142,7 @@ h1 {
   color: rgb(171, 22, 230);
   color: rgb(230, 188, 53);
   transition: 0.125s;
-  padding-top: 13.5px;
+  padding-top: 14px;
   border-top: 2px solid rgb(230, 188, 53);
 }
 
@@ -156,6 +157,7 @@ h1 {
   font-weight: bold;
   font-size: 21px;
   background-color: transparent;
+  text-transform: capitalize;
 }
 
 .navigation-bar .page-logo p:hover {
@@ -180,11 +182,20 @@ h1 {
   margin-top: 6%;
 }
 
-.introduction p {
+.introduction br:nth-child(1) {
+  margin-bottom: 2.5px;
+}
+
+.introduction br:last-child {
+  margin-bottom: 8.5px;
+}
+
+.introduction h1 {
   color: white;
   font-size: 28px;
   text-align: center;
   background-color: transparent;
+  line-height: 1.65;
 }
 
 #about {
@@ -218,7 +229,7 @@ h1 {
 
 .about-section-text {
   padding-right: 5%;
-/*   text-align: justify; */
+  /* text-align: justify; */
 }
 
 .about-section-text .title {
@@ -248,7 +259,7 @@ h1 {
   margin-right: 10px;
 }
 
-#about h1 {
+#about h2 {
   /* color: rgb(21, 147, 219); */
   text-align: center;
   background-color: transparent;
@@ -277,7 +288,7 @@ h1 {
   margin-top: 11%;
   background-color: transparent;
 }
-#portfolio h1 {
+#portfolio h2 {
   text-align: center;
   background-color: transparent;
 }
@@ -294,7 +305,7 @@ h1 {
   margin-bottom: 5%;
 }
 
-#contact h1 {
+#contact h2 {
   text-align: center;
   background-color: transparent;
 }
@@ -543,12 +554,12 @@ textarea:focus {
     align-items: baseline;
     padding: 1rem 1.5rem !important;
   }
-  
+
   .navigation-bar a:hover {
     padding-top: 0px !important;
     border-top: 0px solid rgb(230, 188, 53);
   }
-  
+
   .navigation-bar ul {
     flex-direction: column;
     width: 100%;
@@ -583,9 +594,9 @@ textarea:focus {
     color: rgb(230, 188, 53) !important;
   }
 
-  .introduction br {
+  /* .introduction br {
     display: none;
-  }
+  } */
 
   .container {
     background-image: none;
@@ -597,7 +608,7 @@ textarea:focus {
     margin-bottom: 10% !important;
   }
 
-  .introduction p {
+  .introduction h1 {
     line-height: 1.4;
     font-size: 26px !important;
   }
@@ -697,7 +708,7 @@ textarea:focus {
   .portfolio-section .two-images:last-child .image {
     margin-top: 0.3rem !important;
   }
-  
+
   #contact {
     margin-top: 12% !important;
     margin-bottom: 6% !important;
