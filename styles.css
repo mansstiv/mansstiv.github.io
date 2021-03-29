@@ -204,6 +204,7 @@ h2 {
   align-items: center;
   justify-content: center;
   margin: 34% 8% 0% 8%;
+  width: auto;
 }
 
 .button {
@@ -409,8 +410,16 @@ textarea:focus {
 
 .two-images {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
+}
+
+.two-images .image:nth-child(1) {
+  margin-right: 10%;
+}
+
+.two-images:last-child .image:nth-child(1) {
+  margin-right: 0;
 }
 
 .footer p:last-child {
