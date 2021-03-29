@@ -203,7 +203,7 @@ h2 {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 34% 8% 0% 8%;
+  margin: 34% 7.5% 0% 7.5%;
   width: auto;
 }
 
@@ -782,8 +782,8 @@ textarea:focus {
 
 @media (max-width: 1050px) {
   .about-section-text {
-    margin-right: 10% !important;
-    margin-left: 10% !important;
+    margin-right: 8% !important;
+    margin-left: 8% !important;
   }
   .container-form {
     margin-left: 8% !important;
