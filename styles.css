@@ -690,7 +690,7 @@ textarea:focus {
   }
 
    #portfolio {
-    padding:  15% 15% !important;
+    padding:  15% 14% !important;
   }
  
 /*   #portfolio {
@@ -867,10 +867,10 @@ textarea:focus {
     margin-left: 6% !important;
   }
 
-  #portfolio {
+/*   #portfolio {
     margin-left: 10% !important;
     margin-right: 10% !important;
-  }
+  } */
 
   .contact-section {
     margin-bottom: 0% !important;
