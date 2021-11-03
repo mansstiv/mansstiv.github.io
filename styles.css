@@ -415,12 +415,17 @@ textarea:focus {
 }
 
 .two-images .image:nth-child(1) {
-  margin-right: 10%;
+  margin-right: 6%;
 }
 
-.two-images:last-child .image:nth-child(1) {
-  margin-right: 0;
+.two-images .image:nth-child(2) {
+  margin-right: 6%;
 }
+
+
+/* .two-images:last-child .image:nth-child(1) {
+  margin-right: 0;
+} */
 
 .footer p:last-child {
   color: rgb(230, 188, 53);
@@ -490,12 +495,13 @@ textarea:focus {
 }
 
 .image__title {
-  font-size: 2em;
+  font-size: 1.6em;
   font-weight: bold;
+  text-align: center;
 }
 
 .image__description {
-  font-size: 1.25em;
+  font-size: 1.1em;
   margin-top: 0.25em;
   margin-left: 0.25em;
   margin-right: 0.25em;
@@ -710,12 +716,16 @@ textarea:focus {
     width: auto;
   }
 
-  .portfolio-section .two-images .image:last-child {
-    margin-top: 3rem !important;
+  .portfolio-section .two-images:nth-child(1) .image:nth-child(2),
+  .portfolio-section .two-images:nth-child(1) .image:nth-child(3),
+  .portfolio-section .two-images:nth-child(2) .image:nth-child(2),
+  .portfolio-section .two-images:nth-child(2) .image:nth-child(3)
+   {
+    margin-top: 3.5rem !important;
   }
 
   .portfolio-section .two-images:last-child .image {
-    margin-top: 0.3rem !important;
+    margin-top: 0.6rem !important;
   }
 
   #contact {
