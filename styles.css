@@ -720,7 +720,7 @@ textarea:focus {
   .portfolio-section .two-images:nth-child(1) .image:nth-child(3),
   .portfolio-section .two-images:nth-child(2) .image:nth-child(2),
   .portfolio-section .two-images:nth-child(2) .image:nth-child(3)
-   {
+  {
     margin-top: 3.5rem !important;
   }
 
