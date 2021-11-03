@@ -289,10 +289,13 @@ h2 {
   margin-top: 11%;
   background-color: transparent;
 }
+
 #portfolio h2 {
   text-align: center;
   background-color: transparent;
+
 }
+
 .portfolio-section {
   margin: 7% 8% 5% 8%;
   background-color: transparent;
@@ -310,6 +313,7 @@ h2 {
   text-align: center;
   background-color: transparent;
 }
+
 
 .container-form {
   margin-top: 1.5%;
@@ -352,6 +356,7 @@ input[type="submit"] {
   cursor: pointer;
   margin-top: 1.5%;
   font-size: 16px;
+
 }
 
 input[type="submit"]:hover {
@@ -488,6 +493,7 @@ textarea:focus {
 .image__overlay:hover {
   opacity: 1;
   cursor: pointer;
+  border-radius: 7px;
 }
 
 .image__overlay:hover > * {
@@ -683,11 +689,16 @@ textarea:focus {
     width: 40%;
   }
 
-  #portfolio {
-    margin-top: 10% !important;
-    margin-left: 15% !important;
-    margin-right: 15% !important;
+   #portfolio {
+    padding:  15% 15% !important;
   }
+ 
+/*   #portfolio {
+    padding-top: 10% !important;
+    padding-left: 15% !important;
+    padding-right: 15% !important;
+  } */
+
 
   .image__title {
     font-size: 1.62sem;
@@ -867,4 +878,21 @@ textarea:focus {
   #myBtn {
     bottom: 14%;
   }
+}
+
+#portfolio, .portfolio-section, .two-images, .image, #portfolio .title, #portfolio .fa {
+  background-color: rgb(230, 188, 53) !important;
+  background-color: #161C27 !important;
+  background-color: #020122 !important;
+  background-color: #0F0F1A !important;
+  background-color: #010113 !important;
+  background-color: #021627 !important;
+}
+
+#portfolio {
+  padding: 7% 0%;
+}
+
+#portfolio .fa, #portfolio h2 {
+  color: white;
 }
