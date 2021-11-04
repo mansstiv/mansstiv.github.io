@@ -203,7 +203,7 @@ h2 {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 34% 7.5% 0% 7.5%;
+  margin: 37% 7.5% 0% 7.5%;
   width: auto;
 }
 
@@ -290,6 +290,10 @@ h2 {
   background-color: transparent;
 }
 
+#portfolio .title {
+  margin-top: 1%;
+}
+
 #portfolio h2 {
   text-align: center;
   background-color: transparent;
@@ -297,16 +301,16 @@ h2 {
 }
 
 .portfolio-section {
-  margin: 7% 8% 5% 8%;
+  margin: 7.5% 8% 5% 8%;
   background-color: transparent;
   /* display: flex;
   justify-content: space-evenly; */
 }
 
 #contact {
-  margin-top: 13%;
+  margin-top: 7%;
   background-color: transparent;
-  margin-bottom: 5%;
+  margin-bottom: 7%;
 }
 
 #contact h2 {
@@ -316,7 +320,7 @@ h2 {
 
 
 .container-form {
-  margin-top: 1.5%;
+  margin-top: 3%;
   border-radius: 5px;
   padding: 20px;
   margin-left: 17%;
@@ -896,3 +900,8 @@ textarea:focus {
 #portfolio .fa, #portfolio h2 {
   color: white;
 }
+
+/* .footer, .footer p, .footer .social, .footer a, .footer .fa {
+  background-color: #010B13 !important;
+}
+ */
