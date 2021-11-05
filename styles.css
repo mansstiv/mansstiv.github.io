@@ -243,7 +243,7 @@ h2 {
 }
 
 .about-section-photo img {
-  height: 460px;
+  height: 420px;
   width: auto;
   border-radius: 50%;
 }
@@ -557,12 +557,195 @@ textarea:focus {
 }
 
 /* Media */
-@media (min-width: 1200px) {
+
+@media (min-width: 1100px) {
+
+  .introduction h1,
+  .introduction .mobile {
+    font-size: 22px;
+  }
+
+  .introduction .name {
+    font-size: 30px !important;
+  }
+
+  .about-section-text p {
+    font-size: 14px !important;
+  }
+
+  .about-section-photo {
+    padding-top: 2% !important;
+  }
+
   .navigation-bar ul {
     display: flex !important;
   }
+
+  .about-section-photo img {
+    height: 340px;
+    width: auto;
+    border-radius: 50%;
+  }
 }
-@media (max-width: 1200px) {
+
+@media (min-width: 1366px) {
+
+  .introduction h1,
+  .introduction .mobile {
+    font-size: 26px;
+  }
+
+  .introduction .name {
+    font-size: 34px !important;
+  }
+
+  .about-section-text p {
+    font-size: 16px !important;
+  }
+
+  .about-section-photo img {
+    height: 420px;
+    width: auto;
+    border-radius: 50%;
+  }
+}
+
+@media (min-width: 1920px) {
+
+  .navigation-bar #myLinks i,
+  .navigation-bar #myLinks a  {
+    font-size: 22px  !important;    
+  }
+
+  .navigation-bar .page-logo p {
+    font-size: 26px  !important;  
+  }
+
+  .navigation-bar .music-btn p {
+    font-size: 21px  !important;  
+  }
+
+  .navigation-bar .music-btn i {
+    font-size: 32px !important;
+  }
+
+  .introduction {
+    -webkit-transform: scaleX(1.05);
+    transform: scaleX(1.05);  
+  }
+
+  .introduction h1,
+  .introduction .mobile {
+    font-size: 29px;
+  }
+
+  .introduction .name {
+    font-size: 37px !important;
+  }
+
+  #about {
+    margin-left: 16% !important;
+    margin-right: 16% !important;
+  }
+
+  .about-section-text {
+    margin-right: 5% !important;
+  }
+
+  .about-section-text p {
+    font-size: 18px !important;
+  }
+
+  .about-section-photo {
+    padding-top: 3% !important;
+  }
+
+  .about-section-photo img {
+    height: 450px;
+    width: auto;
+    border-radius: 50%;
+  }
+
+  .image__title {
+    font-size: 1.65em;
+  }
+
+  .image__description {
+    font-size: 1.15em;
+  }
+
+
+}
+
+@media (min-width: 2560px) {
+  .navigation-bar #myLinks i,
+  .navigation-bar #myLinks a  {
+    font-size: 27px  !important;    
+  }
+
+  .navigation-bar .page-logo p {
+    font-size: 31px  !important;  
+  }
+
+  .navigation-bar .music-btn p {
+    font-size: 25px  !important;  
+  }
+
+  .navigation-bar .music-btn i {
+    font-size: 37px !important;
+  }
+
+
+
+  .introduction {
+    -webkit-transform: scaleX(1.2);
+    transform: scaleX(1.2);  
+  }
+
+  .introduction h1,
+  .introduction .mobile {
+    font-size: 30px;
+  }
+
+  .introduction .name {
+    font-size: 38px !important;
+  }
+
+
+  .about-section-text {
+    margin-right: 8% !important;
+  }
+
+  .about-section-text p {
+    font-size: 21px !important; 
+  }
+
+  #about {
+    margin-left: 17% !important;
+    margin-right: 17% !important;
+  }
+
+  .about-section-photo img {
+    height: 530px;
+    width: auto;
+    border-radius: 50%;
+  }
+
+  .container-form {
+    margin-left: 20% !important;
+    margin-right: 20% !important;
+  }
+
+  .image__title {
+      font-size: 1.75em;
+    }
+
+  .image__description {
+    font-size: 1.25em;
+  }
+}
+
+@media (max-width: 1100px) {
   * {
     margin: 0px !important;
   }
@@ -820,9 +1003,21 @@ textarea:focus {
 }
 
 @media (max-width: 850px) {
+
+  .introduction {
+    margin-left: 8% !important;
+    margin-right: 8% !important;    
+  }
+
+  #portfolio .image {
+    margin-left: 17% !important;
+    margin-right: 17% !important;
+    margin-bottom: 5% !important;
+  }
+
   .about-section-photo2 img {
     height: auto;
-    width: 50%;
+    width: 45%;
   }
   .footer .social i {
     font-size: 30px;
@@ -832,6 +1027,13 @@ textarea:focus {
   }
 }
 @media (max-width: 630px) {
+
+  #portfolio .image {
+    margin-left: 2% !important;
+    margin-right: 2% !important;
+    margin-bottom: 1% !important;
+  }
+
   .about-section-photo2 img {
     height: auto;
     width: 58%;
@@ -905,3 +1107,4 @@ textarea:focus {
   background-color: #010B13 !important;
 }
  */
+
