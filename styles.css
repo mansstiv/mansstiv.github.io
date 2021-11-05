@@ -871,6 +871,8 @@ textarea:focus {
     align-items: center;
     justify-content: center;
     text-align: center;
+    margin-right: 6% !important;
+    margin-left: 6% !important;
   }
 
   #about p {
@@ -1064,6 +1066,11 @@ textarea:focus {
   }
 }
 @media (max-width: 630px) {
+
+  #about {
+    margin-right: 0% !important;
+    margin-left: 0% !important;
+  }
 
   #portfolio .image {
     margin-left: 2% !important;
