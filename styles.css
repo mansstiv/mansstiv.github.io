@@ -591,12 +591,12 @@ textarea:focus {
 @media (min-width: 1200px) {
 
   #about {
-    margin-left: 11%;
-    margin-right: 11%;
+    margin-left: 10%;
+    margin-right: 10%;
   }
 
   .about-section-text {
-    margin-right: 3% !important;
+    margin-right: 1% !important;
   }
 
   .about-section-photo img {
@@ -616,13 +616,16 @@ textarea:focus {
   .introduction .name {
     font-size: 34px !important;
   }
+  .about-section-text {
+    margin-right: 2% !important;
+  }
 
   .about-section-text p {
     font-size: 16px !important;
   }
 
   .about-section-photo img {
-    height: 420px;
+    height: 410px;
     width: auto;
     border-radius: 50%;
   }
@@ -638,19 +641,24 @@ textarea:focus {
 
   .navigation-bar #myLinks i,
   .navigation-bar #myLinks a  {
-    font-size: 22px  !important;    
+    font-size: 27px  !important;    
   }
 
   .navigation-bar .page-logo p {
-    font-size: 26px  !important;  
+    font-size: 31px  !important;  
   }
 
   .navigation-bar .music-btn p {
-    font-size: 21px  !important;  
+    font-size: 26px  !important;  
   }
 
   .navigation-bar .music-btn i {
-    font-size: 32px !important;
+    font-size: 37px !important;
+  }
+
+  .title .fa,
+  .title h2 {
+    font-size: 40px !important;
   }
 
   .introduction {
@@ -685,38 +693,43 @@ textarea:focus {
   }
 
   .about-section-photo img {
-    height: 450px;
+    height: 475px;
     width: auto;
     border-radius: 50%;
   }
 
   .image__title {
-    font-size: 1.65em;
+    font-size: 1.7em;
   }
 
   .image__description {
-    font-size: 1.15em;
+    font-size: 1.2em;
   }
 
 
 }
 
 @media (min-width: 2560px) {
+  .title .fa,
+  .title h2 {
+    font-size: 45px !important;
+  }
+
   .navigation-bar #myLinks i,
   .navigation-bar #myLinks a  {
-    font-size: 27px  !important;    
+    font-size: 31px  !important;    
   }
 
   .navigation-bar .page-logo p {
-    font-size: 31px  !important;  
+    font-size: 35px  !important;  
   }
 
   .navigation-bar .music-btn p {
-    font-size: 25px  !important;  
+    font-size: 29px  !important;  
   }
 
   .navigation-bar .music-btn i {
-    font-size: 37px !important;
+    font-size: 41px !important;
   }
 
 
@@ -761,11 +774,11 @@ textarea:focus {
   }
 
   .image__title {
-      font-size: 1.75em;
+      font-size: 1.8em;
     }
 
   .image__description {
-    font-size: 1.25em;
+    font-size: 1.3em;
   }
 }
 
