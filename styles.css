@@ -625,14 +625,14 @@ textarea:focus {
   }
 
   .about-section-photo img {
-    height: 410px;
+    height: 405px;
     width: auto;
     border-radius: 50%;
   }
 
   #about {
-    margin-left: 8%;
-    margin-right: 8%;
+    margin-left: 10%;
+    margin-right: 10%;
   }
 
 }
