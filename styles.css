@@ -660,10 +660,10 @@ textarea:focus {
     font-size: 40px !important;
   }
 
-  .introduction {
+/*   .introduction {
     -webkit-transform: scaleX(1.05);
     transform: scaleX(1.05);  
-  }
+  } */
 
   .introduction h1,
   .introduction .mobile {
@@ -744,10 +744,10 @@ textarea:focus {
 
 
 
-  .introduction {
+/*   .introduction {
     -webkit-transform: scaleX(1.1);
     transform: scaleX(1.1);  
-  }
+  } */
 
   .introduction h1,
   .introduction .mobile {
