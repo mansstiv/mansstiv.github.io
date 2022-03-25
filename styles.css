@@ -207,25 +207,42 @@ h2 {
   width: auto;
 }
 
-.button {
-  align-items: center;
+
+button {
+  /* align-items: center;
   margin-top: 4%;
-  margin-left: 10%;
   padding: 15px 25px;
   font-size: 24px;
   text-align: center;
   cursor: pointer;
   outline: none;
-  color: white;
+  color: black;
   background-color: rgb(129, 9, 177);
   background-color: rgb(5, 92, 192);
+  background-color: rgb(230, 188, 53);
+  background-color: #3c096c;
   border: none;
   border-radius: 15px;
-  box-shadow: 0 4px #999;
+  box-shadow: 0 4px #999; */
+  background-color: rgb(218, 175, 35);
+  background-color: black;
+  color: rgb(218, 175, 35);
+  border: 2px solid rgb(218, 175, 35);
+  padding: 17px 30px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 5%;
+  font-size: 16px;
+  font-weight: bold;
+  font-style: italic;
+
 }
 
-.button:hover {
-  opacity: 0.9;
+button:hover {
+  /* opacity: 0.9; */
+  background-color: rgb(209, 162, 7);;
+  color: black;
+  /* border: 2px solid red; */
 }
 
 .about-section-text {
@@ -360,6 +377,8 @@ input[type="submit"] {
   cursor: pointer;
   margin-top: 1.5%;
   font-size: 16px;
+  font-style: italic;
+
 }
 
 input[type="submit"]:hover {
@@ -447,6 +466,14 @@ textarea:focus {
   width: 100%;
 }
 
+.footer .social i {
+
+  display: inline-block;
+  transition:0.2s;
+}
+
+.footer .social i:hover {transform: scale(1.2);}
+
 /* Code for overlay text on images inspired by https://www.youtube.com/watch?v=exb2ab72Xhs&t=29s */
 
 .image {
@@ -457,6 +484,10 @@ textarea:focus {
 .image__img {
   display: block;
   width: 100%;
+}
+
+.image:hover, .image__img:hover {
+  transform: scale(1.07);
 }
 
 .image__overlay {
@@ -1006,6 +1037,11 @@ textarea:focus {
     padding: 17px 40px !important;
   }
 
+  button {
+    margin-top: 5% !important;
+    padding: 15px 10px !important;
+  }
+
   textarea {
     padding-top: 30px !important;
   }
@@ -1014,14 +1050,14 @@ textarea:focus {
     margin: 6% 17% 1.1% 17% !important;
   }
 
-  .footer p:last-child {
+  /* .footer p:last-child {
     margin-left: 22% !important;
     margin-right: 22% !important;
     font-size: 14px;
     padding-bottom: 1rem !important;
-  }
+  } */
 
-  .footer .social i {
+  .footer .social fa {
     font-size: 33px;
   }
 
@@ -1076,7 +1112,7 @@ textarea:focus {
     height: auto;
     width: 45%;
   }
-  .footer .social i {
+  .footer .social fa {
     font-size: 30px;
   }
   .contact-section {
@@ -1171,3 +1207,26 @@ textarea:focus {
 }
  */
 
+
+.footer, .footer p, .footer .social, .footer a, .footer .fa {
+  background-color: white !important;
+  background-color: #021424 !important;
+  /* background-color: black !important;
+  background-color: #000A14 !important; */
+}
+
+.footer {
+  margin-top: 15% !important;
+}
+
+.footer p {
+  display: block;
+  padding-top: 1rem !important;
+  padding-bottom: 1rem !important;
+  background-color: #000A14 !important;
+}
+
+.contact-section {
+  padding-top: 1.7rem !important;
+  padding-bottom: 1.7rem !important;
+}
