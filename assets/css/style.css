@@ -1288,6 +1288,10 @@ textarea.form-input::-webkit-resizer { display: none; }
   .navbar-list {
     margin-right: 15px;
   }
+	
+  .btn {
+    --fs-6: 12px;
+  }
 }
 
 /**
