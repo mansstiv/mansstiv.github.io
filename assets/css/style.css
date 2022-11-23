@@ -1276,6 +1276,11 @@ textarea.form-input::-webkit-resizer { display: none; }
 
 }
 
+@media (max-width: 579px) {
+  .navbar-list {
+    margin-right: 15px;
+  }
+}
 
 /**
  * responsive larger than 580px screen
