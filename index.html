@@ -1,316 +1,1572 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css?family=Psoppins%26display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>   
-    <title>Manolis Stivaktas</title>
-    <meta name="google-site-verification" content="lVOnwmcxkVKnkBPdpINtQqhihC5ORcXLALo_LrDPDWc" />
-    <link rel = "icon" 
-        href = "https://cdn2.iconfinder.com/data/icons/seo-internet-marketing-6/256/Custom_Coding-512.png" 
-        type = "image/x-icon"> 
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-</head>
 
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>   
+  <title>Manolis Stivaktas - Personal Portfolio</title>
+
+  <!--
+    - favicon
+  -->
+  <!-- <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon"> -->
+  <link rel = "icon" 
+  href = "https://www.svgrepo.com/show/250470/coding.svg"
+  type = "image/x-icon"> 
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
 
 <body>
 
-    <!-- <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>  -->
-    <button class="scrollToTop" id="myBtn" title="Go to top">Top</button> 
+  <!--
+    - #MAIN
+  -->
 
-    <div id="home_"></div>
-    
-    <nav class="navigation-bar">
-        <!-- <a href="#"><img class="logo" src="iron-man.jpg" alt="logo of website"></a> -->
-        <div class="page-logo">
-            <a href="#home_"><p>Manolis Stivaktas</p></a>
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+      
+      <div class="sidebar-info">
+
+
+        <figure class="avatar-box">
+          <img src="./assets/images/me2.png" alt="Manolis Stivaktas" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Manolis Stivaktas">Manolis Stivaktas</h1>
+
+          <p class="title">Junior Software Engineer</p>
         </div>
 
-        <ul id="myLinks">
-            <li><a href="#home_">
-                <span class="visually-hidden">Home</span>
-                <i class="fa fa-home" aria-hidden="true"></i>
-                <div class="mrgn">Home</div>
-            </a></li>
-            <li><a href="#about_">
-                <span class="visually-hidden">About</span>
-                <i class="fa fa-user" aria-hidden="true"></i>
-                <div class="mrgn">About</div>
-            </a></li>
-            <li><a href="#portfolio_">
-                <span class="visually-hidden">Portfolio</span>
-                <i class="fa fa-book" aria-hidden="true"></i>
-                <div class="mrgn">Portfolio</div>
-            </a></li>
-            <li><a href="#contact_">
-                <span class="visually-hidden">Contact</span>
-                <i class="fa fa-envelope" aria-hidden="true"></i>
-                <div class="mrgn">Contact</div>
-            </a></li>
-        </ul>
-        <div class="music-btn">
-            <audio id="myMusic"><source src="LaVieEnRose.mp3" type="audio/mp3"></audio>
-            <p>Music</p>
-            <div class="btn">
-                <i class="fa fa-play-circle" id="icon"></i>
-                <i class="fa fa-pause-circle" id="icon"></i>
-            </div>
-        </div>
-        <a href="javascript:void(0);" title="Toggle menu" class="mobile-icon-menu" onclick="myFunction()">
-            <i class="fa fa-bars"></i>Menu
-        </a>
-    </nav>
-    
-    <section>
-        <div class="container">
-            <div class="introduction">
-                <h1><span class="mobile" style="color: #064374;">&lt;b&gt;</span>Hello<span class="mobile" style="color: #064374;">&lt;/b&gt;</span>
-                <br>I'm<span class="name" style="color: #064374; font-size: 38px;"> Manolis Stivaktas,</span>
-                <br>a B.Sc. Student in Computer Science at the University of Athens!</h1>
-            </div>
-            <div class="about-section-photo2">
-                <img src="images/me.jpeg" alt="Self-portrait">
-            </div>
-            <div  id="about_" style="margin-top: 26%;"></div>
-            <div id="about">     
-                <div class="about-section-text">
-                    <div class="title"><i class="fa fa-user mrgn" aria-hidden="true"></i><h2>About</h2></div>
-                    <p>
-                        Since you've got here, maybe you are interested in learning some things about me! 
-                        Currently, I'm in the fifth-year of my bachelor studies, at the <a href="https://www.di.uoa.gr/en" target="_blank">Dept. of Informatics and Telecommunications</a>,
-                        <a href="https://en.uoa.gr/" target="_blank">National and Kapodistrian University of Athens</a>.
-                        Throughout these years, multiple fields of Computer Science captured my interest, such as Artificial Intelligence, Databases
-                        and Web Development. Up to now, Human-Computer Interaction is the field that I have 
-                        enhanced my creativity, by focusing on providing user-friendly experiences. In the meantime, 
-                        having undertaken multiple projects for various academic courses, I've built strong foundations in Data Structures and Algorithms, 
-                        which contributed in further developing my soft skills e.g. working under pressure, time management, teamwork,
-                        communication and problem solving. Last but not least, I am an amateur guitar player, with a 
-                        little out of tune voice, who enjoys traditional dancing, photography, hiking and traveling!
-                        <br><br>
-                    > Stay <span style="color: rgb(230, 188, 53);">true</span> to yourself, yet be open to <span style="color: rgb(230, 188, 53);">learn</span>
-                        <br>
-                    > <span style="color: rgb(230, 188, 53);">Think</span> about things <span style="color: rgb(230, 188, 53);">ʎlʇuǝɹǝɟɟᴉp</span>
-                    </p>
-                    
-                    <!-- <a href="" target="_blank"><button>Download CV</button></a> -->
-                 </div>
-                <div class="about-section-photo">
-                    <img src="images/me.jpeg" alt="Self-portrait">
-                </div>
-            </div>
-            <div id="portfolio_" style="margin-top: 6.5%;"></div>
-            <div id="portfolio">                
-                <div class="title"><i class="fa fa-book mrgn" aria-hidden="true"></i><h2>Portfolio</h2></div>
-                <div class="portfolio-section">
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
 
-                    <div class="two-images">
-                            <div class="image">
-                                <a href="https://mansstiv.github.io/Website-Redesign/" target="_blank">
-                                    <img class="image__img" src="images/ypakp2.png" alt="Procedure of prototyping">
-                                    <div class="image__overlay image__overlay--primary">
-                                        <div class="image__title">Website Redesign</div>
-                                        <p class="image__description first">
-                                            Proposed a brand new implementation of Greek Ministry of Labour website. The main goal was to create a much more appealing and easy-to-understand design while focusing on the website's usability.
-                                        </p>
-                                        <p class="image__description second">
-                                            Ministry of Labour and Social Affairs (Greece), front-end (HTML & CSS), back-end (PHP & MySQL).
-                                        </p>
-                                    </div>
-                                </a>
-                            </div>
-
-                            <div class="image">
-                                <a href="https://github.com/mansstiv/Quotes-Rest-API" target="_blank">
-                                    <img class="image__img" src="images/flask_rest.jpg" alt="Comment picture">
-                                    <div class="image__overlay image__overlay--primary">
-                                        <div class="image__title">Quotes REST API</div>
-                                        <p class="image__description first">
-                                            Implemented a REST API that manages quotes, while supporting different CRUD operations. Containerization and testing techniques were also included in the
-                                            implementation (Python, Flask, Pytest, MongoDB, Docker).
-                                        </p>
-                                        <p class="image__description second">
-                                            Implemented a REST API that manages quotes, while supporting different CRUD operations. Containerization and testing techniques were also included in the
-                                            implementation (Python, Flask, Pytest, MongoDB, Docker).                                        
-                                        </p>
-                                    </div>
-                                </a>
-                            </div>
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
 
 
-                            <div class="image">
-                                <a href="https://github.com/mansstiv/Capture-The-Flag" target="_blank">
-                                    <img class="image__img" src="images/ctf4.png" alt="Comment picture">
-                                    <div class="image__overlay image__overlay--primary">
-                                        <div class="image__title">Capture The Flag</div>
-                                        <p class="image__description first">
-                                            Successfully completed a Capture-The-Flag (CTF) challenge, as part of my Computer Security class (C, Python, Hashing, Cryptography, Buffer Overflow, Return-to-libc). 
-                                        </p>
-                                        <p class="image__description second">
-                                            Successfully completed a Capture-The-Flag (CTF) challenge, as part of my Computer Security class (C, Python, Hashing, Cryptography, Buffer Overflow, Return-to-libc). 
-                                        </p>
-                                    </div>
-                                </a>
-                            </div>
+      </div>
 
-                    </div>
+      <div class="sidebar-info_more">
 
-                    <div class="two-images mrgn-top">
-                        <div class="image">
-                            <a href="https://mansstiv.github.io/eClass-Penetration-Testing/" target="_blank">
-                                <img class="image__img" src="images/pentest6.png" alt="Comment picture">
-                                <div class="image__overlay image__overlay--primary">
-                                    <div class="image__title">eClass Pentest</div>
-                                    <p class="image__description first">
-                                        Evaluated the security (exploiting and fixing vulnerabilities - XSS, CSRF, SQLi, RFI) of Open eClass 2.3 (University of Athens) platform. 
-                                    </p>
-                                    <p class="image__description second">
-                                        Evaluated the security (exploiting and fixing vulnerabilities - XSS, CSRF, SQLi, RFI) of Open eClass 2.3 (University of Athens) platform. 
-                                    </p>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="image">
-                            <a href="https://github.com/mansstiv/Twitter-Sentiment-Classifier" target="_blank">
-                                <img class="image__img" src="images/nlp.png" alt="Comment picture">
-                                <div class="image__overlay image__overlay--primary">
-                                    <div class="image__title">Twitter Sentiment Analysis</div>
-                                    <p class="image__description first">
-                                        Developed multiple sentiment classifiers, experimenting with models (FFNN, LSTM, GRU, BERT) and word embeddings (TF-IDF, GloVe) for the Twitter dataset. 
-                                    </p>
-                                    <p class="image__description second">
-                                        Developed multiple sentiment classifiers, experimenting with models (FFNN, LSTM, GRU, BERT) and word embeddings (TF-IDF, GloVe) for the Twitter dataset. 
-                                    </p>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="image">
-                            <a href="https://github.com/mansstiv/System-Programming" target="_blank">
-                                <img class="image__img" src="images/system6.png" alt="Inside of a system">
-                                <div class="image__overlay image__overlay--primary">
-                                    <div class="image__title">System Programming</div>
-                                    <p class="image__description first">
-                                      Projects for the "System Programming" course (C, Bash Scripting, Multithreading Client-Server Model, Processes, Low-Level I/O, Named Pipes, Data Structures).  
-                                    </p>
-                                    <p class="image__description second">
-                                        Projects for the "System Programming" course (C, Bash Scripting, Multithreading Client-Server Model, Processes, Low-Level I/O, Named Pipes, Data Structures).  
-                                    </p>
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-                </div>
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
             </div>
 
-            <div id="contact_" style="margin-bottom: 10%;"></div>
-            <div id="contact">
-                <div class="title"><i class="fa fa-envelope mrgn" aria-hidden="true"></i><h2>Contact</h2></div>
-                <div class="container-form">
-                    <form action="https://usebasin.com/f/77984dc59ce1" method="POST">
-                        <div class="mrgnbtm"></div>
-                        <label for="fullName" class="visually-hidden">Full Name</label>
-                        <input type="text" id="fullName" name="fullNname" placeholder="Full Name" required>
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
 
-                        <div class="mrgnbtm"></div>
-                        <label for="email" class="visually-hidden">>Email</label>
-                        <input type="text" id="email" name="email" placeholder="Email Address" required>
+              <a href="mailto:manolis.stivaktas@gmail.com" target="_blank" class="contact-link" title="manolis.stivaktas@gmail.com">manolis.stivaktas@gmail.com</a>
+            </div>
 
-                        <div class="mrgnbtm"></div>
-                        <label for="subject" class="visually-hidden">>Subject</label>
-                        <textarea id="subject" name="subject" placeholder="Your message.." style="height:200px" required></textarea>
-                    
-                        <input type="submit" value="Send">
-                    </form>
-                </div>
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">LinkedIn</p>
+
+              <a href="https://www.linkedin.com/in/mansstiv" target="_blank" class="contact-link" title="linkedin.com/in/mansstiv">linkedin.com/in/mansstiv</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="logo-github"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">GitHub</p>
+
+              <a href="https://github.com/mansstiv" target="_blank" class="contact-link" title="github.com/mansstiv">github.com/mansstiv</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="reader-outline"></ion-icon>
             </div>
             
-            <div class="footer">
-                <div class="contact-section">
-                    <br>
-                    <div class="social">
-                        <a href="https://www.facebook.com/manolis.stivaktas/" target="_blank" title="Go to my facebook page"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>                   
-                        <a href="https://www.instagram.com/mansstiv/" target="_blank" title="Go to my instagram page"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-                        <a href="https://www.linkedin.com/in/mansstiv/" target="_blank" title="Go to my linkedin page"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
-                        <a href="https://github.com/mansstiv" target="_blank" title="Go to my github page"><i class="fa fa-github-alt" aria-hidden="true"></i></a>
-                    </div>
-                </div>
-                <p>&copy;Copyright 2021 | Manolis Stivaktas</p>
+            <div class="contact-info">
+              <p class="contact-title">Resume</p>
+
+              <!-- <address>Download CV</address> -->
+              <a href="https://drive.google.com/file/d/1IORwq0NTLKk4mnCVV9QYf-i0oSXQk2y2/view?usp=sharing" class="contact-link"  target="_blank">Download CV</a>
             </div>
-        </div>
-    </section>
+
+          </li>
+
+          <!-- <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Greece, Athens</address>
+            </div>
+
+          </li> -->
+
+        </ul>
+        <!-- <div class="separator"></div> -->
+        <!-- <div class="center">
+          <a class="contact-title cv" href="https://drive.google.com/file/d/1IORwq0NTLKk4mnCVV9QYf-i0oSXQk2y2/view?usp=sharing" target="_blank">
+            Download CV
+          </a>
+        </div> -->
+
+        <!-- <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div> -->
+
+    </aside>
 
 
-    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
 
-    <script type="text/javascript">
 
-        $(document).ready(function(){
-            $(".music-btn .fa-play-circle").on('click', function(){
-                $(this).hide();
-                $(".fa-pause-circle").fadeIn();
-                $("#myMusic")[0].play();
-                $("#myMusic")[0].loop = true;
-            });
-            $(".music-btn .fa-pause-circle").on('click', function(){
-                $(this).hide();
-                $(".fa-play-circle").fadeIn();
-                $("#myMusic")[0].pause();
-            });
-        });
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
+
+          <!-- <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Blog</button>
+          </li> -->
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+
+
+          <li class="navbar-item">
+
+              <audio id="myMusic"><source src="LaMer.mp3" type="audio/mp3"></audio>
+              
+              <button class="music-btn">
+                <i class="fa fa-play-circle" id="icon" title="Play music"></i>
+                <i class="fa fa-pause-circle" id="icon" title="Stop music"></i>
+              </button>
+    
+          </li>
+
+
+        </ul>
+
         
-        // Scrolling effects for navlinks
-        $(document).ready(function(){
 
-            var $root = $('html, body');
-            $('.navigation-bar a').click(function() {
-                var href = $.attr(this, 'href');
+      </nav>
 
-                $root.animate({
-                    scrollTop: $(href).offset().top
-                }, 950, function () {
-                    window.location.hash = href;
-                });
 
-                return false;
-            });
-        });
 
-        // Code inspired by https://www.lambdatest.com/blog/browser-compatible-smooth-scrolling-with-css-js-jquery/
-        // Scroll to top button
-        $(document).ready(function(){
-            var $root = $('html, body');
 
-            // Check to see if the window is top if not then display button
-            $(window).scroll(function(){
-                if ($(this).scrollTop() > 20) {
-                    $('.scrollToTop').fadeIn(200)
-                } else {
-                    $('.scrollToTop').fadeOut(200);
-                }
-            });
 
-            //Click event to scroll to top
-            $('.scrollToTop').click(function(){
-                $root.animate({scrollTop : 0},950);
-                return false;
-            });    
-        });   
+      <!--
+        - #ABOUT
+      -->
 
-        function myFunction() {
-            var x = document.getElementById("myLinks");
-            // var link = documentquerySelectorAll("li");
-            if (x.style.display === "flex") {
-                x.style.display = "none";
+      <article class="about  active" data-page="about">
 
-            } else {
-                x.style.cssText = "display:flex;"
-            }
-        }         
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
 
-    </script>
+        <section class="about-text">
+          <p>
+            Since you've got here, maybe you are interested in learning some things about me! 
+            I'm a senior undergraduate student in Computer Science, at the  <a href="https://www.di.uoa.gr/en" target="_blank">Dept. of Informatics and Telecommunications</a>, 
+            <a href="https://en.uoa.gr/" target="_blank">National and Kapodistrian University of Athens</a> and currently I am working as a Junior Software Engineer in 
+            <a href="https://www.netcompany-intrasoft.com/" target="_blank">Netcompany-Intrasoft</a>. 
+          </p>
+          <p>
+            Throughout these years, multiple fields of Computer Science captured my interest, such as Web Development, Artificial Intelligence and Human-Computer Interaction. 
+            Up to now, Front-End Development is the field that I have enhanced my creativity, by focusing on implementing user-friendly interfaces. 
+          </p>
+          <p>
+            Besides coding, I'm an amateur guitar player, with a little out of tune voice, who enjoys traditional dancing, hiking and traveling.
+          </p>
+        </section>
 
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">Area of Interest</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/dev-svgrepo-com.svg" alt="Web development icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Web development</h4>
+
+                <p class="service-item-text">
+                  Intrested in both client and server side of a web application.
+                  Currently focusing towards Front-End Development, by implementing
+                  creative and responsive applications.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/humanoid-svgrepo-com.svg" alt="Human-Computer Interaction icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Human-Computer Interaction</h4>
+
+                <p class="service-item-text">
+                  Interested in the design, evaluation and implementation of interactive technologies.
+                  I would like to further explore the relation of Psychology and Computer Science.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/ai-svgrepo-com.svg" alt="Artificial Intelligence icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Artificial Intelligence</h4>
+
+                <p class="service-item-text">
+                  Intrested in Machine Learning techniques and Artificial Intelligence algorithms.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/music-svgrepo-com.svg" alt="Dance & Music icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Dance & Music</h4>
+
+                <p class="service-item-text">
+                  I am an art enthusiast. I love expressing myself through traditional dancing and music.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/travel-svgrepo-com.svg" alt="camera icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Travel</h4>
+
+                <p class="service-item-text">
+                  Through the field of Computer Science I want to travel as much as possible, interact with people from different cultures and exchange original, fresh ideas.               
+                </p>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+
+        <!--
+          - testimonials
+        -->
+
+        <!-- <section class="testimonials">
+
+          <h3 class="h3 testimonials-title">Testimonials</h3>
+
+          <ul class="testimonials-list has-scrollbar">
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Daniel lewis</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
+                    lot of experience
+                    and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                    consectetur adipiscing
+                    elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-2.png" alt="Jessica miller" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Jessica miller</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
+                    lot of experience
+                    and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                    consectetur adipiscing
+                    elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-3.png" alt="Emily evans" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Emily evans</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
+                    lot of experience
+                    and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                    consectetur adipiscing
+                    elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-4.png" alt="Henry william" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Henry william</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
+                    lot of experience
+                    and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                    consectetur adipiscing
+                    elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </section> -->
+
+
+        <!--
+          - testimonials modal
+        -->
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
+              </figure>
+
+              <img src="./assets/images/icon-quote.svg" alt="quote icon">
+            </div>
+
+            <div class="modal-content">
+
+              <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
+
+              <time datetime="2021-06-14">14 June, 2021</time>
+
+              <div data-modal-text>
+                <p>
+                  Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
+                  lot of experience
+                  and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                  consectetur adipiscing
+                  elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                </p>
+              </div>
+
+            </div>
+
+          </section>
+
+        </div>
+
+
+        <!--
+          - clients
+        -->
+
+        <!-- <section class="clients">
+
+          <h3 class="h3 clients-title">Clients</h3>
+
+          <ul class="clients-list has-scrollbar">
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-1-color.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-2-color.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-3-color.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-4-color.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-5-color.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-6-color.png" alt="client logo">
+              </a>
+            </li>
+
+          </ul>
+
+        </section> -->
+
+      </article>
+
+
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+        
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <!-- <div class="center">
+          <button class="wrapper" type="button"><a href="#"><span>Download CV</span></a></button>
+        </div> -->
+
+
+
+        <section class="timeline">
+
+          
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">B.Sc in Informatics and Telecommunications</h4>
+              
+              <i class="h4 timeline-item-title">National and Kapodistrian University of Athens, GR</i>
+              
+              <span>September 2017 — June 2023</span>
+
+              <p class="timeline-text">
+                Specialization: Software, Data & Knowledge Management
+              </p>
+
+              <p class="timeline-text">
+                Grade: 8.64/10 (222/240 ECTS)
+              </p>
+              
+            </li>
+            <!-- <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">New york academy of art</h4>
+
+              <span>2006 — 2007</span>
+
+              <p class="timeline-text">
+                Ratione voluptatem sequi nesciunt, facere quisquams facere menda ossimus, omnis voluptas assumenda est
+                omnis..
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">High school of art and design</h4>
+
+              <span>2002 — 2004</span>
+
+              <p class="timeline-text">
+                Duis aute irure dolor in reprehenderit in voluptate, quila voluptas mag odit aut fugit, sed consequuntur
+                magni dolores
+                eos.
+              </p>
+
+            </li> -->
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="briefcase-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Junior Software Engineer, Netcompany-Intrasoft</h4>
+
+              <span>May 2022 — Present</span>
+
+              <p class="timeline-text">
+                Supported MR HealthTech, a division of Munich Re, to transform its health insurance
+                core administration system. Worked in an international and demanding environment
+                under an Agile methodology, providing software development services to cover additional 
+                product modules of MedNext+:
+              </p>
+
+              <ul class="timeline-text">
+                <li>Implemented High-Level Designs for different user interfaces.</li>
+                <li>Developed new complex modules in TypeScript, KnockoutJS, HTML and CSS.</li>
+                <li>Helped with bug fixing process, using Atlassian Jira.</li>
+                <li>Cooperated with multiple QA/Back-End/Front-End Engineers and participated in
+                  daily meetings to set short-term goals.</li>
+              </ul>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">HCI (e-Accessibility), National And Kapodistrian University Of Athens, GR</h4>
+
+              <span>February 2021 - September 2021</span>
+
+              <p class="timeline-text">
+                Evaluated my department’s website accessibility, addressing current issues and
+                proposing solutions. Worked in Drupal 8 platform and used web accessibility evaluation tools
+                (e.g. Wave, AChecker) for this purpose.
+              </p>
+
+            </li>
+
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="newspaper-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Certifications</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Angular - The Complete Guide</h4>
+
+              <span>July 2022 — No Expiration Date</span>
+              <a href="https://www.udemy.com/certificate/UC-bf0c5dac-16e6-4135-9100-d3065a9eaef6/" target="_blank">
+                <button class="credentials-button"> 
+                  Show Credentials
+                  <ion-icon name="arrow-undo-outline"></ion-icon>
+                </button>
+              </a>
+              <ul class="timeline-text">
+                  <li>Bestselling Angular course on Udemy (~35 hours). </li>
+                  <li>Developed modern, complex, responsive and scalable web applications with Angular 14.</li>
+                  <!-- <li>Understood the architecture behind an Angular application and how to use it.</li> -->
+                  <!-- <li>Created single-page applications with one of the most modern JavaScript frameworks.</li> -->
+              </ul>
+
+              <!-- <a class="timeline-text" href="https://www.udemy.com/certificate/UC-bf0c5dac-16e6-4135-9100-d3065a9eaef6/" target="_blank">Show Credentials</a> -->
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <!-- <section class="skill">
+
+          <h3 class="h3 skills-title">My skills</h3>
+
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Web design</h5>
+                <data value="80">80%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Graphic design</h5>
+                <data value="70">70%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Branding</h5>
+                <data value="90">90%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 90%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">WordPress</h5>
+                <data value="50">50%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 50%;"></div>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section> -->
+
+        <section class="skill">
+          <h3 class="h3 skills-title">My skills</h3>
+          <ul class="skills-list">
+            <li class="skills-list-item btn btn--plain">HTML</li>
+            <li class="skills-list-item btn btn--plain">CSS</li>
+            <li class="skills-list-item btn btn--plain">JavaScript</li>
+            <li class="skills-list-item btn btn--plain">TypeScript</li>
+            <li class="skills-list-item btn btn--plain">Angular</li>
+            <li class="skills-list-item btn btn--plain">KnockoutJS</li>
+            <li class="skills-list-item btn btn--plain">Python</li>
+            <li class="skills-list-item btn btn--plain">C/C++</li>
+            <li class="skills-list-item btn btn--plain">SQL</li>
+            <li class="skills-list-item btn btn--plain">MySQL</li>
+            <li class="skills-list-item btn btn--plain">Linux</li>
+            <li class="skills-list-item btn btn--plain">Git</li>
+          </ul>
+        </section>
+
+        <!-- <div class="center">
+          <a class="contact-title cv link" href="https://drive.google.com/file/d/1IORwq0NTLKk4mnCVV9QYf-i0oSXQk2y2/view?usp=sharing" target="_blank">Download CV</a>
+        </div> -->
+
+
+      </article>
+
+
+
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="portfolio" data-page="portfolio">
+
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Web Development</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Computer Security</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Artificial Intelligence</button>
+            </li>
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Web development</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Computer Security</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Artificial Intelligence</button>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+            <!-- <div class="cust"> -->
+              <li class="project active" data-filter-item data-category="web development">
+                <a class="link" title="View case study" href="https://mansstiv.github.io/Website-Redesign/" target="_blank">
+                <h3 class="project-title">Website Redesign</h3>
+                <p class="project-category">Web Development</p>
+                <p class="project-description">
+                  Proposed a brand new implementation of Greek Ministry of Labour website. 
+                </p>
+                <ul class="project-stack">
+                  <li class="project-stack-item">HTML</li>
+                  <li class="project-stack-item">CSS</li>
+                  <li class="project-stack-item">PHP</li>
+                  <li class="project-stack-item">MySQL</li>
+                  <li class="project-stack-item">Front-End</li>
+                  <li class="project-stack-item">Back-End</li>
+                  <li class="project-stack-item">HCI</li>
+                </ul>
+                <!-- <a class="link" title="View case study" href="https://mansstiv.github.io/Website-Redesign/" target="_blank">
+                  <ion-icon name="book-outline"></ion-icon>
+                </a> -->
+                </a>
+              </li>
+            <!-- </div> -->
+            
+            <!-- <div class="cust"> -->
+              <li class="project active" data-filter-item data-category="web development">
+                <a class="link" title="View case study" href="http://users.uoa.gr/~sdi1700152/" target="_blank">
+
+                <h3 class="project-title">Portfolio Page</h3>
+                <p class="project-category">Web Development</p>
+                <p class="project-description">
+                  Implemented my previous portfolio landing page, where I hosted all my work. 
+                </p>
+                <ul class="project-stack">
+                  <li class="project-stack-item">HTML</li>
+                  <li class="project-stack-item">CSS</li>
+                  <li class="project-stack-item">JavaScript</li>
+                  <li class="project-stack-item">Front-End</li>
+                </ul>
+                <!-- <a class="link" title="View case study" href="https://mansstiv.github.io/" target="_blank">
+                  <ion-icon name="book-outline"></ion-icon>
+                </a> -->
+                </a>
+              </li>
+            <!-- </div> -->
+
+            <!-- <div class="cust"> -->
+              <li class="project active" data-filter-item data-category="web development">
+                <a class="link" title="View case study" href="https://github.com/mansstiv/Quotes-Rest-API" target="_blank">
+                <h3 class="project-title">Quotes Rest API</h3>
+                <p class="project-category">Web Development</p>
+                <p class="project-description">
+                  A REST API that manages quotes, while supporting different CRUD operations.
+                </p>
+                <ul class="project-stack">
+                  <li class="project-stack-item">Python</li>
+                  <li class="project-stack-item">Flask</li>
+                  <li class="project-stack-item">Pytest</li>
+                  <li class="project-stack-item">MongoDB</li>
+                  <li class="project-stack-item">Docker</li>
+                  <li class="project-stack-item">Back-End</li>
+                </ul>
+                <!-- <a class="link" title="View case study" href="https://github.com/mansstiv/Quotes-Rest-API" target="_blank">
+                  <ion-icon name="book-outline"></ion-icon>
+                </a> -->
+              </a>
+
+              </li>
+            <!-- </div> -->
+
+            <!-- <div class="cust"> -->
+              <li class="project active" data-filter-item data-category="computer security">
+                <a class="link" title="View case study" href="https://mansstiv.github.io/Capture-The-Flag/" target="_blank">
+                <h3 class="project-title">Capture The Flag</h3>
+                <p class="project-category">Computer Security</p>
+                <p class="project-description">
+                  Successfully completed a Capture-The-Flag (CTF) challenge, as part of my Computer Security class.
+                </p>
+                <ul class="project-stack">
+                  <li class="project-stack-item">C</li>
+                  <li class="project-stack-item">Python</li>
+                  <li class="project-stack-item">Hashing</li>
+                  <li class="project-stack-item">Cryptography</li>
+                  <li class="project-stack-item">Buffer Overflow</li>
+                  <li class="project-stack-item">Return-to-libc</li>
+                </ul>
+                <!-- <a class="link" title="View case study" href="https://mansstiv.github.io/Capture-The-Flag/" target="_blank">
+                  <ion-icon name="book-outline"></ion-icon>
+                </a> -->
+                </a>
+              </li>
+            <!-- </div> -->
+
+            <!-- <div class="cust"> -->
+              <li class="project active" data-filter-item data-category="computer security">
+                <a class="link" title="View case study" href="https://mansstiv.github.io/eClass-Penetration-Testing/" target="_blank">
+                <h3 class="project-title">e-Class Pentest</h3>
+                <p class="project-category">Computer Security</p>
+                <p class="project-description">
+                  Evaluated the security (exploiting and fixing vulnerabilities) of Open eClass 2.3 (University of Athens) platform.              
+                </p>
+                <ul class="project-stack">
+                  <li class="project-stack-item">PHP</li>
+                  <li class="project-stack-item">Cyber Security</li>
+                  <li class="project-stack-item">XSS</li>
+                  <li class="project-stack-item">CSRF</li>
+                  <li class="project-stack-item">SQLi</li>
+                  <li class="project-stack-item">RFI</li>
+                </ul>
+                <!-- <a class="link" title="View case study" href="https://mansstiv.github.io/eClass-Penetration-Testing/" target="_blank">
+                  <ion-icon name="book-outline"></ion-icon>
+                </a> -->
+              </a>
+              </li>
+            <!-- </div> -->
+
+            <!-- <div class="cust"> -->
+              <li class="project active" data-filter-item data-category="artificial intelligence">
+                <a class="link" title="View case study" href="https://github.com/mansstiv/Twitter-Sentiment-Classifier" target="_blank">
+                <h3 class="project-title">Twitter Sentiment Classifier</h3>
+                <p class="project-category">Artificial Intelligence</p>
+                <p class="project-description">
+                  Developed multiple sentiment classifiers, experimenting with models and word embeddings.              
+                </p>
+                <ul class="project-stack">
+                  <li class="project-stack-item">Python</li>
+                  <li class="project-stack-item">Machine Learning</li>
+                  <li class="project-stack-item">Deep Learning</li>
+                  <li class="project-stack-item">NLP</li>
+                </ul>
+                <!-- <a class="link" title="View case study" href="https://github.com/mansstiv/Twitter-Sentiment-Classifier" target="_blank">
+                  <ion-icon name="book-outline"></ion-icon>
+                </a> -->
+                </a>
+              </li>
+            <!-- </div> -->
+
+            <!-- <div class="cust"> -->
+              <li class="project active" data-filter-item data-category="artificial intelligence">
+                <a class="link" title="View case study" href="https://github.com/mansstiv/Comment-Classifier" target="_blank">
+                <h3 class="project-title">Comment Classifier</h3>
+                <p class="project-category">Artificial Intelligence</p>
+                <p class="project-description">
+                  A machine learning system which takes a comment as an input and ranks it as offensive or non-offensive (neutral).               
+                </p>
+                <ul class="project-stack">
+                  <li class="project-stack-item">Python</li>
+                  <li class="project-stack-item">Machine Learning</li>
+                </ul>
+                <!-- <a class="link" title="View case study" href="https://github.com/mansstiv/Comment-Classifier" target="_blank">
+                  <ion-icon name="book-outline"></ion-icon>
+                </a> -->
+              </a>
+              </li>
+            <!-- </div> -->
+
+            <!-- <div class="cust"> -->
+              <li class="project active" data-filter-item data-category="artificial intelligence">
+                <a class="link" title="View case study" href="https://github.com/mansstiv/Pacman-Simulation" target="_blank">
+
+                <h3 class="project-title">Pacman Simulation</h3>
+                <p class="project-category">Artificial Intelligence</p>
+                <p class="project-description">
+                  Created a pacman simulation, as a part of Berkeley's University Artificial Intelligence course.                
+                <ul class="project-stack">
+                  <li class="project-stack-item">Python</li>
+                  <li class="project-stack-item">Intelligent Agents</li>
+                  <li class="project-stack-item">General Search Algorithms</li>
+                </ul>
+                <!-- <a class="link" title="View case study" href="https://github.com/mansstiv/Pacman-Simulation" target="_blank">
+                  <ion-icon name="book-outline"></ion-icon>
+                </a> -->
+              </a>
+
+              </li>
+            <!-- </div> -->
+
+          </ul>
+
+        </section>
+
+      </article>
+<!-- 
+      <article class="portfolio" data-page="portfolio">
+
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Web development</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Computer Security</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Artificial Intelligence</button>
+            </li>
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Web development</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Computer Security</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Artificial Intelligence</button>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+
+            <li class="project-item active" data-filter-item data-category="web development">
+              <a href="https://mansstiv.github.io/Website-Redesign/" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/ypakp2.png" alt="Website Redesign" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Website Redesign</h3>
+
+                <p class="project-category">Web Development</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="https://mansstiv.github.io/" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/portfolio.png" alt="Portfolio Landing Page" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Portfolio Landing Page</h3>
+
+                <p class="project-category">Web Development</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="https://github.com/mansstiv/Quotes-Rest-API" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/flask_rest.jpg" alt="Quotes Rest API" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Quotes Rest API</h3>
+
+                <p class="project-category">Web Development</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="computer security">
+              <a href="https://mansstiv.github.io/Capture-The-Flag/" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/ctf4.png" alt="Capture The Flag" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Capture The Flag</h3>
+
+                <p class="project-category">Computer Security</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="computer security">
+              <a href="https://mansstiv.github.io/eClass-Penetration-Testing/" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/pentest6.png" alt="eClass Pentest" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">eClass Pentest</h3>
+
+                <p class="project-category">Computer Security</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="artificial intelligence">
+              <a href="https://github.com/mansstiv/Twitter-Sentiment-Classifier" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/nlp.png" alt="Twitter Sentiment Classifier" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Twitter Sentiment Classifier</h3>
+
+                <p class="project-category">Artificial Intelligence</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="artificial intelligence">
+              <a href="https://github.com/mansstiv/Comment-Classifier" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/comment.png" alt="Comment Classifier" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Comment Classifier</h3>
+
+                <p class="project-category">Artificial Intelligence</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="artificial intelligence">
+              <a href="https://github.com/mansstiv/Pacman-Simulation" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/pacman2.png" alt="Pacman Simulation" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Pacman Simulation</h3>
+
+                <p class="project-category">Artificial Intelligence</p>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article> -->
+
+
+
+
+
+      <!--
+        - #BLOG
+      -->
+
+      <!-- <article class="blog" data-page="blog">
+
+        <header>
+          <h2 class="h2 article-title">Blog</h2>
+        </header>
+
+        <section class="blog-posts">
+
+          <ul class="blog-posts-list">
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-1.jpg" alt="Design conferences in 2022" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Design conferences in 2022</h3>
+
+                  <p class="blog-text">
+                    Veritatis et quasi architecto beatae vitae dicta sunt, explicabo.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-2.jpg" alt="Best fonts every designer" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Best fonts every designer</h3>
+
+                  <p class="blog-text">
+                    Sed ut perspiciatis, nam libero tempore, cum soluta nobis est eligendi.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-3.jpg" alt="Design digest #80" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Design digest #80</h3>
+
+                  <p class="blog-text">
+                    Excepteur sint occaecat cupidatat no proident, quis nostrum exercitationem ullam corporis suscipit.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-4.jpg" alt="UI interactions of the week" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">UI interactions of the week</h3>
+
+                  <p class="blog-text">
+                    Enim ad minim veniam, consectetur adipiscing elit, quis nostrud exercitation ullamco laboris nisi.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-5.jpg" alt="The forgotten art of spacing" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">The forgotten art of spacing</h3>
+
+                  <p class="blog-text">
+                    Maxime placeat, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-6.jpg" alt="Design digest #79" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Design digest #79</h3>
+
+                  <p class="blog-text">
+                    Optio cumque nihil impedit uo minus quod maxime placeat, velit esse cillum.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article> -->
+
+
+
+
+
+      <!--
+        - #CONTACT
+      -->
+
+      <article class="contact" data-page="contact">
+
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+
+        <!-- <section class="mapbox" data-mapbox>
+          <figure>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d199666.5651251294!2d-121.58334177520186!3d38.56165006739519!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x809ac672b28397f9%3A0x921f6aaa74197fdb!2sSacramento%2C%20CA%2C%20USA!5e0!3m2!1sen!2sbd!4v1647608789441!5m2!1sen!2sbd"
+              width="400" height="300" loading="lazy"></iframe>
+          </figure>
+        </section> -->
+
+        <section class="contact-form">
+
+          <h3 class="h3 form-title">Contact Form</h3>
+
+          <form class="form" action="https://usebasin.com/f/77984dc59ce1" method="post" data-form>
+          
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+
+              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+            </div>
+
+            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+
+            <button class="form-btn" type="submit" disabled data-form-btn>
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Send Message</span>
+            </button>
+
+          </form>
+
+        </section>
+
+      </article>
+
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function(){
+      $(".fa-play-circle").on('click', function(){
+          $(this).hide();
+          $(".fa-pause-circle").fadeIn();
+          $("#myMusic")[0].play();
+          $("#myMusic")[0].loop = true;
+      });
+      $(".fa-pause-circle").on('click', function(){
+          $(this).hide();
+          $(".fa-play-circle").fadeIn();
+          $("#myMusic")[0].pause();
+      });
+    });
+  </script>
 </body>
+
 </html>
-
-
