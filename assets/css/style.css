@@ -2284,7 +2284,7 @@ input:-webkit-autofill:active{
     caret-color: white;
 }
 
-
+/* inspired by https://codepen.io/matthewcain/pen/ZepbeR */
 #up-btn {
   display: inline-block;
   background-color: var(--onyx);
