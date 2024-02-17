@@ -516,6 +516,10 @@ main {
   font-size: 18px;
 }
 
+.music-btn:focus {
+  outline: 0;
+}
+
 .navbar-link:hover,
 .navbar-link:focus {
   color: var(--light-gray-70);
