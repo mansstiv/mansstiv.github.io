@@ -1598,7 +1598,7 @@
     }
 
     // Add event listener for when the page unloads (user navigates away) and clear form data
-    window.addEventListener("unload", function(event) {
+    window.addEventListener("pageshow", function(event) {
       clearFormData();
     });
 
