@@ -1591,16 +1591,14 @@
   <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
   <script type="text/javascript">
 
-    // Function to clear form data
     function clearFormData() {
       document.getElementById("fullname").value = "";
       document.getElementById("email").value = "";
       document.getElementById("message").value = "";
     }
 
-    // Add event listener for when the page unloads (user navigates away)
+    // Add event listener for when the page unloads (user navigates away) and clear form data
     window.addEventListener("unload", function(event) {
-      // Clear form data when the page unloads
       clearFormData();
     });
 
