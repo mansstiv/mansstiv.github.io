@@ -1545,16 +1545,18 @@
           <h3 class="h3 form-title">Contact Form</h3>
 
 	  <!-- <form class="form" action="https://usebasin.com/f/77984dc59ce1" method="post" data-form> -->
-          <form class="form" action="https://formsubmit.co/0992ef0849c5faa25b6feb075c1fd6d7" method="POST" data-form>
+          <!-- <form class="form" action="https://formsubmit.co/0992ef0849c5faa25b6feb075c1fd6d7" method="POST" data-form> -->
+          <form id="myForm" class="form" action="https://api.web3forms.com/submit" method="POST">
+            
+            <input type="hidden" name="access_key" value="59e6ff60-dd2c-40d1-b0b0-d8a4668974cc">
 
-          
             <div class="input-wrapper">
-              <input type="text" name="fullname" class="form-input" placeholder="Full Name *" required data-form-input>
+              <input type="text" id="fullname" name="fullname" class="form-input" placeholder="Full Name *" required data-form-input>
 
-              <input type="email" name="email" class="form-input" placeholder="Email Address *" required data-form-input>
+              <input type="email" id="email" name="email" class="form-input" placeholder="Email Address *" required data-form-input>
             </div>
 
-            <textarea name="message" class="form-input" placeholder="Your Message *" required data-form-input></textarea>
+            <textarea id="message" name="message" class="form-input" placeholder="Your Message *" required data-form-input></textarea>
 
             <button class="form-btn" type="submit" data-form-btn>
               <ion-icon name="paper-plane"></ion-icon>
@@ -1588,6 +1590,19 @@
   <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
   <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
   <script type="text/javascript">
+
+    // Function to clear form data
+    function clearFormData() {
+      document.getElementById("fullname").value = "";
+      document.getElementById("email").value = "";
+      document.getElementById("message").value = "";
+    }
+
+    // Add event listener for when the page unloads (user navigates away)
+    window.addEventListener("unload", function(event) {
+      // Clear form data when the page unloads
+      clearFormData();
+    });
 
     var btn = $('#up-btn');
 
