@@ -1347,6 +1347,10 @@ textarea.form-input::-webkit-resizer {
   --fs-6: 14px;
 }
 
+.navbar-link, .info_more-btn, .filter-item button, .filter-select, .form-btn {
+  outline: none;
+}
+
 /*-----------------------------------*\
   #RESPONSIVE
 \*-----------------------------------*/

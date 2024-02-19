@@ -1591,6 +1591,13 @@
   <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
   <script type="text/javascript">
 
+    $(document).on('click', function(event) {
+      // Check if the clicked element is not within the filter-select element
+      if (!$(event.target).closest('.filter-select').length) {
+          $('.filter-select').removeClass('active');
+      }
+    });
+
     function clearFormData() {
       document.getElementById("fullname").value = "";
       document.getElementById("email").value = "";
