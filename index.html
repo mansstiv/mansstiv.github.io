@@ -1632,21 +1632,6 @@
       });
     });
 
-    // Toggle music also on spacebar press
-    $(document).on('keydown', function(event) {
-      if (event.keyCode === 32 && event.target.tagName !== 'INPUT' && event.target.tagName !== 'TEXTAREA') { // Spacebar
-        event.preventDefault();  
-        if ($("#myMusic")[0].paused) {
-              $(".fa-play-circle").hide();
-              $(".fa-pause-circle").fadeIn();
-              $("#myMusic")[0].play();
-          } else {
-              $(".fa-pause-circle").hide();
-              $(".fa-play-circle").fadeIn();
-              $("#myMusic")[0].pause();
-          }
-      }
-    });
   </script>
 </body>
 
